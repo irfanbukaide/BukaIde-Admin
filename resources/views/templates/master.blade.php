@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
-    <title>Monster Admin Template - The Most Complete & Trusted Bootstrap 4 Admin Template</title>
+    <title>Bukaide - The Most Complete & Trusted Bootstrap 4 Admin Template</title>
     <!-- Bootstrap Core CSS -->
     <link href="{{ asset('assets/plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <!-- chartist CSS -->
@@ -30,20 +30,6 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-        ga('create', 'UA-85622565-1', 'auto');
-        ga('send', 'pageview');
-    </script>
 </head>
 
 <body class="fix-header fix-sidebar card-no-border">
@@ -78,7 +64,6 @@
             <!-- End PAge Content -->
             <!-- ============================================================== -->
 
-            @include('templates.partials.right-sidebar')
         </div>
         <!-- ============================================================== -->
         <!-- End Container fluid  -->
@@ -121,17 +106,17 @@
 <!-- Chart JS -->
 <script src="{{ asset('assets/js/dashboard1.js') }}"></script>
 <script src="{{ asset('assets/js/toastr.js') }}"></script>
-<script>
-    $.toast({
-        heading: 'Welcome to Monster admin',
-        text: 'Use the predefined ones, or specify a custom position object.',
-        position: 'top-right',
-        loaderBg: '#ff6849',
-        icon: 'info',
-        hideAfter: 3000,
-        stack: 6
-    });
-</script>
+{{--<script>--}}
+    {{--$.toast({--}}
+        {{--heading: 'Welcome to Monster admin',--}}
+        {{--text: 'Use the predefined ones, or specify a custom position object.',--}}
+        {{--position: 'top-right',--}}
+        {{--loaderBg: '#ff6849',--}}
+        {{--icon: 'info',--}}
+        {{--hideAfter: 3000,--}}
+        {{--stack: 6--}}
+    {{--});--}}
+{{--</script>--}}
 <!-- ============================================================== -->
 <!-- Style switcher -->
 <!-- ============================================================== -->

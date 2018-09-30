@@ -9,10 +9,9 @@
             <!-- User profile image -->
             <div class="profile-img"> <img src="../assets/images/users/1.jpg" alt="user" /> </div>
             <!-- User profile text-->
-            <div class="profile-text"> <a href="#" class="dropdown-toggle link u-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Markarn Doe <span class="caret"></span></a>
+            <div class="profile-text"> <a href="#" class="dropdown-toggle link u-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">[ fullname ] <span class="caret"></span></a>
                 <div class="dropdown-menu animated flipInY">
                     <a href="#" class="dropdown-item"><i class="ti-user"></i> My Profile</a>
-                    <a href="#" class="dropdown-item"><i class="ti-wallet"></i> My Balance</a>
                     <a href="#" class="dropdown-item"><i class="ti-email"></i> Inbox</a>
                     <div class="dropdown-divider"></div> <a href="#" class="dropdown-item"><i class="ti-settings"></i> Account Setting</a>
                     <div class="dropdown-divider"></div> <a href="login.html" class="dropdown-item"><i class="fa fa-power-off"></i> Logout</a>
@@ -23,15 +22,12 @@
         <!-- Sidebar navigation-->
         <nav class="sidebar-nav">
             <ul id="sidebarnav">
-                <li class="nav-small-cap">PERSONAL</li>
+                <li class="nav-small-cap">MENU</li>
                 <li>
-                    <a class="has-arrow" href="#" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Dashboard <span class="label label-rounded label-success">5</span></span></a>
+                    <a class="has-arrow" href="#" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Dashboard</span></a>
                     <ul aria-expanded="false" class="collapse">
-                        <li><a href="index.html">Modern Dashboard</a></li>
-                        <li><a href="index2.html">Awesome Dashboard</a></li>
-                        <li><a href="index3.html">Classy Dashboard</a></li>
-                        <li><a href="index4.html">Analytical Dashboard</a></li>
-                        <li><a href="index5.html">Minimal Dashboard</a></li>
+                        <li><a href="#">Sales</a></li>
+                        <li><a href="#">Visitor</a></li>
                     </ul>
                 </li>
                 <li>
